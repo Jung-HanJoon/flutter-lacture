@@ -24,6 +24,7 @@ void main() {
   // h=m;
 }
 
+//메인 app
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -31,11 +32,10 @@ class MyApp extends StatelessWidget {
     //뷰를 그림
     return MaterialApp(
       //안드로이드의 메터리얼 스타일을 사용
-        title: 'Flutter Demo',
+        title: '이스터 에그',
         theme: ThemeData(
           //앱 기본 태마
           primarySwatch: Colors.orange,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         home:MainPage(),
         //FirstPage(),
